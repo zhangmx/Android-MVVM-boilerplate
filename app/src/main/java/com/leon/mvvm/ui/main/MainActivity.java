@@ -1,9 +1,12 @@
 package com.leon.mvvm.ui.main;
 
 import android.os.Bundle;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.view.ViewPager;
+//import android.support.design.widget.BottomNavigationView;
+//import androidx.core.view.ViewPager;
 
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.leon.mvvm.R;
 import com.leon.mvvm.ui.base.mvc.BaseCActivity;
 import com.leon.mvvm.ui.main.dashboard.DashboardFragment;

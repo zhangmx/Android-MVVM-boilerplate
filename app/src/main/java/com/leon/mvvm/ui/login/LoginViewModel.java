@@ -1,7 +1,7 @@
 package com.leon.mvvm.ui.login;
 
 
-import android.databinding.ObservableField;
+import androidx.databinding.ObservableField;
 import android.widget.Toast;
 
 import com.leon.mvvm.data.remote.NetworkObserver;

@@ -1,14 +1,17 @@
 package com.leon.mvvm.binding;
 
 import android.content.Context;
-import android.databinding.BindingAdapter;
+//import android.databinding.BindingAdapter;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.v4.content.ContextCompat;
+//import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.core.content.ContextCompat;
+import androidx.databinding.BindingAdapter;
 
 import com.bumptech.glide.Glide;
 

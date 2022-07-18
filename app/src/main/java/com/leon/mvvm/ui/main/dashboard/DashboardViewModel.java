@@ -1,7 +1,6 @@
 package com.leon.mvvm.ui.main.dashboard;
 
 import android.content.Context;
-import android.databinding.ViewDataBinding;
 import android.widget.Toast;
 
 import com.leon.mvvm.data.model.EmptyResponse;

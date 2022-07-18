@@ -1,7 +1,9 @@
 package com.leon.mvvm.ui.login;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+//import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 import com.leon.mvvm.R;
 import com.leon.mvvm.ui.base.mvvm.BaseVMActivity;

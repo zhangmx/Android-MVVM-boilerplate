@@ -1,8 +1,9 @@
 package com.leon.mvvm.ui.main.notification;
 
-import android.databinding.ViewDataBinding;
+import androidx.annotation.Nullable;
+import androidx.databinding.ViewDataBinding;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+//import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

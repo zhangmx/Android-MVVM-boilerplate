@@ -2,12 +2,18 @@ package com.leon.mvvm.utils;
 
 
 import android.os.Bundle;
-import android.support.annotation.CallSuper;
-import android.support.annotation.CheckResult;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+//import android.support.annotation.CallSuper;
+//import android.support.annotation.CheckResult;
+//import android.support.annotation.NonNull;
+//import android.support.annotation.Nullable;
+//import androidx.core.app.Fragment;
 import android.view.View;
+
+import androidx.annotation.CallSuper;
+import androidx.annotation.CheckResult;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.trello.rxlifecycle2.LifecycleProvider;
 import com.trello.rxlifecycle2.LifecycleTransformer;
@@ -48,7 +54,7 @@ public class RxV4Fragment extends Fragment implements LifecycleProvider<Fragment
 
     @Override
     @CallSuper
-    public void onAttach(android.app.Activity activity) {
+    public void onAttach(@NonNull android.app.Activity activity) {
         super.onAttach(activity);
         lifecycleSubject.onNext(FragmentEvent.ATTACH);
     }
@@ -62,7 +68,7 @@ public class RxV4Fragment extends Fragment implements LifecycleProvider<Fragment
 
     @Override
     @CallSuper
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         lifecycleSubject.onNext(FragmentEvent.CREATE_VIEW);
     }

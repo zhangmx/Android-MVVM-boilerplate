@@ -1,7 +1,9 @@
 package com.leon.mvvm.ui.base.mvc;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+//import android.support.annotation.Nullle;
+
+import androidx.annotation.Nullable;
 
 import com.leon.mvvm.data.DataManager;
 import com.leon.mvvm.ui.base.BaseFragment;
